@@ -1,4 +1,4 @@
-# HUGO XMIN
+# HUGO XMIN Cheet
 
 ## _Keep getting it sophisticated, but not more_
 
