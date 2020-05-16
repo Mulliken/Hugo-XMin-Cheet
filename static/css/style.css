@@ -8,18 +8,57 @@ body {
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
-.article-meta, .menu a {
+.menu a {
   text-decoration: none;
-  background: #eee;
+/* background: #eee; */
+  background: white;
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
+
+.article-meta {
+  text-align: left;
+  text-decoration: ;
+  background: white;
+  padding: 0px;
+/*  border-radius: 5px; */
+}
+
+.menu, footer { text-align: center; }
+
+.title { 
+  font-size: 15pt; 
+  font-weight: normal;
+}
+.list_label {
+    font-size: 15pt; 
+    font-weight: normal;
+    margin-left: .5em;
+}
+
+
+.date { 
+  font-size: 10pt;  
+  font-weight: normal;
+  margin-left: 0em;
+}
+h1 {
+	margin: auto;
+    letter-spacing: 0px;
+}
+
+h3 {
+	margin-top: 0.2em;
+	margin-bottom: -0.3em;
+    letter-spacing: 0px;
+}
+
 footer a { text-decoration: none; }
 hr {
-  border-style: dashed;
+/*  border-style: dashed; */
+  border-style: groove;
   color: #ddd;
+  width: %;
 }
 
 /* code */
